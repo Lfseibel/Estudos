@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.daddy {
+  background-color: black;
+  display: flex;
+  width: 1000px;
+  height: 600px;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.big {
+  flex: 1;
+  display: flex;
+  flex-flow: column;
+}
+
+.son {
+  flex: 1;
+}
+
+.one {
+  background-color: powderblue;
+}
+
+.two {
+  background-color: bisque;
+}
+
+.three {
+  background-color: red;
+}
+
+.four {
+  background-color: blue;
+}
